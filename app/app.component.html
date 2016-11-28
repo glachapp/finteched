@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" [(ngModel)]="name" id="name" required>
+                <!--[(ngModel)]="name" name="name" #name="ngModel"-->
+            </div>
+            <span *ngIf="name">{{name}}, get ready to be finteched with Angular 2!</span>
+            <span *ngIf="!name">Get ready to be finteched with Angular 2!</span>
+        </div>
+    </div>
+</div>
