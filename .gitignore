@@ -1,7 +1,5 @@
 .idea
-node_modules/*
-!node_modules/bootstrap
-!node_modules/jquery
+node_modules/
 jspm_packages
 npm-debug.*
 link-checker-results.txt
